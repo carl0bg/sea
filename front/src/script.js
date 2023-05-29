@@ -1,11 +1,12 @@
 const app = new Application({
 	preparation: PreparationScene,
 	computer: ComputerScene,
+	online: OnlineScene,
 });
 
 app.start("preparation");
 
-// document.querySelector('[data-action="randomize"]').click();
+document.querySelector('[data-action="randomize"]').click();
 // document.querySelector('[data-computer="hard"]').disabled = false;
 // document.querySelector('[data-computer="hard"]').click();
 
@@ -15,20 +16,3 @@ app.start("preparation");
 // 		app.opponent.addShot(shot);
 // 	}
 // }
-
-
-
-//console.log(app);
-
-
-
-/*
-const mouse = new Mouse(document.body);
-requestAnimationFrame(tick);
-function tick() {
-
-   requestAnimationFrame(tick);
-   //console.log(mouse.x, mouse.y);
-   mouse.tick();
-}
-*/

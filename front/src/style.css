@@ -53,7 +53,7 @@ body {
 }
 
 .battlefield-item__active {
-	background: rgb(57, 199, 152);
+	background: rgba(123, 121, 255, 0.2);
 }
 
 .marker {
@@ -92,7 +92,8 @@ body {
 	height: 32px;
 }
 
-.ship-row-1 {}
+.ship-row-1 {
+}
 
 .ship-row-2 {
 	width: 65px;
@@ -106,7 +107,8 @@ body {
 	width: 131px;
 }
 
-.ship-column-1 {}
+.ship-column-1 {
+}
 
 .ship-column-2 {
 	height: 65px;
@@ -143,7 +145,8 @@ body {
 }
 
 .shot-missed {
-	color: gray;
+	/* color: gray; */
+	color: "black";
 }
 
 .shot-wounded {
@@ -176,8 +179,8 @@ body {
 }
 
 .shot-killed {
-	margin: -2px;
-	border: 2px solid red;
+	margin: -3px;
+	border: 3px solid red;
 }
 
 .hidden {
